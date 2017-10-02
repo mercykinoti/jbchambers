@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 		<div class="container">
 		<hr>
+			<?php if ( has_post_thumbnail() ) {
+  				the_post_thumbnail();
+			} ?>
 			<img src="assets/images/cover.jpg" class="img-fluid">
 		</div>	
 		<div class="container">
