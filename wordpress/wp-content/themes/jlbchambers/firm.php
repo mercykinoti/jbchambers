@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="row"><hr>
-							<h1 class="contact"><b>Our Firm</b></h1>
+							<h1 class="contact"><b>My Firm</b></h1>
 							<h6 class="text-color">JB Chambers LLP is a modern tech, progressive full-service law firm founded to provide effective, efficient, and innovative legal solutions to meet the unique demands of our clients.</h6>
 							<h4 class="text-color">Client Care</h4>
 							<p>We provide comprehensive legal services in all major industries, helping clients address and anticipate challenges across vast and rapidly changing landscapes.</p>
@@ -23,7 +23,6 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<img src="<?php echo get_bloginfo('template_directory'); ?>/images/firm.jpg" class="img-fluid">	
 						<img src="<?php echo get_bloginfo('template_directory'); ?>/images/cover.jpg" class="img-fluid">	
 					</div>
 				</div>

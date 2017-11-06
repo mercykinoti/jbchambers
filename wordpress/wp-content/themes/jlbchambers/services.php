@@ -22,7 +22,7 @@
 								<h4 class="card-title text-center">Corporate Governance</h4><br>
 								<h6>1 hr | Consultation Meeting</h6><br>
 								<p class="any-scroll p-font">Our firm offers the following services: secretarial audits; Corporate Governance audits; Board Evaluation; Corporate Governance Training; Compliance with corporate governance codes and principles; developing corporate governance reports; development of a comprehensive compliance program.</p>
-								<button class="book-button">Book Now</button>
+								<a href="/contact.php"><button class="book-button">Book Now</button></a>
 							</div>
 						</div>
 					</div>
