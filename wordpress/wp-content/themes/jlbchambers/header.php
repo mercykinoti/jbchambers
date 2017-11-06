@@ -16,37 +16,24 @@
 <hr>
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light">
-	      <a class="navbar-brand" href="index.html"><img style="width:160px;margin-top:0px" src="assets/images/logo.png" class="img-fluid"> </a>
+	      <a class="navbar-brand" href="index.html"><img style="width:160px;margin-top:0px" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo.png" class="img-fluid"><p style="font-size: 13px; color: #0c9b87">We make the best for you</p></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="navbar-toggler-icon"></span>
 	      </button>
-
-	      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-	        <ul class="navbar-nav mr-auto">
-	          <li class="nav-item active">
-	            <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
-	          </li>
-	          <?php wp_list_pages( '&title_li=' ); ?>
-	          <li class="nav-item dropdown">
-	            <a class="nav-link dropdown-toggle" href="firm.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FIRM</a>
-	            <div class="dropdown-menu" aria-labelledby="dropdown01">
-	              <a class="dropdown-item" href="team.php">TEAM</a>
-	            </div>
-	          </li>
-	          <li class="nav-item">
-	            <a class="nav-link" href="team.php">TEAM</a>
-	          </li>
-	           <li class="nav-item">
-	            <a class="nav-link" href="practice.php">PRACTICE AREAS</a>
-	          </li>
-	          <li class="nav-item">
-	            <a class="nav-link" href="contact.php">CONTACT US</a>
-	          </li>
-	           <li class="nav-item">
-	            <a class="nav-link" href="services.php">BOOK US</a>
-	          </li>
-	        </ul>
-	      </div>
+	      
+	      <?php
+			wp_nav_menu( array(
+		    'theme_location'	=> 'primary',
+		    'depth'				=> 2,
+			'container'			=> 'div',
+			'container_class'	=> 'collapse navbar-collapse',
+			'container_id'		=> 'bs-example-navbar-collapse-1',
+			'menu_class'		=> 'navbar-nav mr-auto',
+		    'fallback_cb'		=> 'WP_Bootstrap_Navwalker::fallback',
+		    'walker'			=> new WP_Bootstrap_Navwalker())
+			);
+			?>
+		
     	</nav>
     	
 	</div>

@@ -65,6 +65,8 @@
 						<p>We regularly advise clients in challenging, complex and high-profile assignments within the Technology sector. We also advise software vendors and other technology suppliers on a broad range of matters ranging from the development and launch of new products and services, to commercial agreements and intellectual property strategies</p>
 						<p>We provide data management, data and cyber security, and privacy law advice to a wide-ranging client base. Our services include advisory and project work in drafting and negotiating data processing and transfer agreements, responses to disclosure and access requests, and data protection audits and risk assessments. We also advise on the drafting and implementation of privacy policies, notices and consents, and compliance programmes and training.</p>
 					</div>
+					<div class="ml-auto"><a href="/contact.php"><button>Schedule a meeting</button></a></div>
+					<hr>
 				</div>
 			</div>
 		</section>

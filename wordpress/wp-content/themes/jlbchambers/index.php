@@ -4,7 +4,7 @@
 			<?php if ( has_post_thumbnail() ) {
   				the_post_thumbnail();
 			} ?>
-			<img src="assets/images/cover.jpg" class="img-fluid">
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/images/cover.jpg" class="img-fluid">	
 		</div>	
 		<div class="container">
 			<section class="teamy">
@@ -18,8 +18,6 @@
 								<a href="team.php"><button class="btn btn-default">More</button></a>
 							</div>
 						</div>
-						
-
 					</div>
 					<div class="col-md-4">
 						<hr>
@@ -37,7 +35,7 @@
 							<div class="card-block">
 								<h4 class="card-title">Contact Us</h4>
 								<p>FOR A CONSULTATION</p>
-								<button class="btn btn-default">SCHEDULE A CONSULTATION</button>
+								<a href="contact.php"><button class="btn btn-default">SCHEDULE A CONSULTATION</button></a>
 								<p>Tell: <b class="contact-text">020 4405958</b><br> Cell: <b class="contact-text"> 0741 185958, 0780 185958</b></p>
 								<p class="contact-text">Nairobi Office <br> JB Chambers LLP <br> Madonna House, Office Suite M13 <br>03 Westlands Road <br>P.O. Box 14411-00800, Westlands <br> Nairobi, Kenya</p>
 								<p>Email <br> <b class="contact-text">info@jbchambersllp.com</b></p>
@@ -53,7 +51,7 @@
 							<h4 class="card-title">News and Publications</h4>
 							<div class="row">
 								<div class="col-md-4">
-									<img src="assets/images/cover.jpg" class="img-fluid">
+									<img src="<?php echo get_bloginfo('template_directory'); ?>/images/cover.jpg" class="img-fluid">
 								</div>
 								<div class="col-md-8">									
 									<h4>News and Insights</h4>
@@ -63,7 +61,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-4">
-									<img src="assets/images/cover.jpg" class="img-fluid">
+									<img src="<?php echo get_bloginfo('template_directory'); ?>/images/cover.jpg" class="img-fluid">
 								</div>
 								<div class="col-md-8">
 									<h4>News and Insights</h4>

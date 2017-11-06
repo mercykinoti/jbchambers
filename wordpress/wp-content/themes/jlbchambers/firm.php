@@ -23,7 +23,8 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<img src="assets/images/firm.jpg" class="firm-marg img-fluid">
+						<img src="<?php echo get_bloginfo('template_directory'); ?>/images/firm.jpg" class="img-fluid">	
+						<img src="<?php echo get_bloginfo('template_directory'); ?>/images/cover.jpg" class="img-fluid">	
 					</div>
 				</div>
 			</div>
