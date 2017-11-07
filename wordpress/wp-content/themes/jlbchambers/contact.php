@@ -17,18 +17,18 @@
 							<h3 class="contact-a">E-mail</h3>
 							<p>info@jbchambersllp.com</p>
 						</div>
-						<form>
+						<form name="contacts" method="POST" action="../customerDetails.php">
 							<fieldset class="form-group">
-								<input type="text" class="form-control" id="Name" placeholder="Name">
+								<input type="text" class="form-control" name="name" id="Name" placeholder="Name">
 							</fieldset>
 							<fieldset class="form-group">
-								<input type="email" class="form-control" id="Email" placeholder="Email">
+								<input type="email" class="form-control" name="email" id="Email" placeholder="Email">
 							</fieldset>
 							<fieldset class="form-group">
-								<input type="text" class="form-control" id="Subject" placeholder="Subject">
+								<input type="text" class="form-control" name="subject" id="Subject" placeholder="Subject">
 							</fieldset>
 							<fieldset class="form-group">
-								<textarea class="form-control" rows="3" placeholder="Message"></textarea>
+								<textarea class="form-control" rows="3" placeholder="Message" name="message" id="Message"></textarea>
 							</fieldset>
 							<button type="submit" class="contact submit">Send</button>
 						</form>
@@ -38,3 +38,4 @@
 		</section>
 		<?php get_footer(); ?>
 		
+
